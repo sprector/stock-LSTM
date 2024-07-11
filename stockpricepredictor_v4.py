@@ -15,7 +15,7 @@ import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, Dropout
-import matplotlib.pyplot as plt
+import altair as alt
 from datetime import date
 
 plt.style.use('fivethirtyeight')
